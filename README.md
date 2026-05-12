@@ -1,5 +1,7 @@
 # Marching Cubes
 
+![example image](assets/example.png)
+
 An interactive 3D visualization of the [Marching Cubes](https://en.wikipedia.org/wiki/Marching_cubes) algorithm, built with Rust and the [Bevy](https://bevyengine.org/) game engine for [my YouTube video](https://www.youtube.com/watch?v=OrBzjwW2OnU).
 
 The scene displays a 3D grid of nodes. Each node holds a density value, and the algorithm continuously generates a smooth isosurface mesh at the boundary between positive and negative density values. Clicking nodes and changing the grid resolution lets you see in real time how the algorithm responds to different inputs.
